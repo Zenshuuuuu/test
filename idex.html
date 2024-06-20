@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Agounter Khalid</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>Agounter Khalid</h1>
+        <p>Étudiant en BUT MMI</p>
+    </header>
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <div class="about-content">
+            <img src="img/khalid.jpg" alt="Agounter Khalid">
+            <p>Bonjour, je suis Agounter Khalid, étudiant en BUT MMI à l'IUT de Mulhouse. Passionné par le développement web, le design graphique et la gestion de projets, je cherche à mettre en pratique mes compétences et à contribuer à des projets innovants.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Compétences</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <h3>HTML & CSS</h3>
+                <img src="img/site1.png" alt="HTML & CSS">
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <img src="img/site2.png" alt="JavaScript">
+            </div>
+            <div class="skill">
+                <h3>Design</h3>
+                <img src="img/site3.png" alt="Design">
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projets</h2>
+        <div class="projects-grid">
+            <div class="project">
+                <h3>Projet 1</h3>
+                <a href="projet1.html">
+                    <img src="img/projetc1.png" alt="Projet 1">
+                </a>
+                <p>Description du projet 1.</p>
+            </div>
+            <div class="project">
+                <h3>Projet 2</h3>
+                <a href="projet2.html">
+                    <img src="img/project2.png" alt="Projet 2">
+                </a>
+                <p>Description du projet 2.</p>
+            </div>
+            <div class="project">
+                <h3>Projet 3</h3>
+                <a href="projet3.html">
+                    <img src="img/project3.png" alt="Projet 3">
+                </a>
+                <p>Description du projet 3.</p>
+            </div>
+            <div class="project">
+                <h3>Projet 4</h3>
+                <a href="projet4.html">
+                    <img src="img/project4.png" alt="Projet 4">
+                </a>
+                <p>Description du projet 4.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="education">
+        <h2>Éducation</h2>
+        <div class="education-grid">
+            <div class="education">
+                <h3>Lycée Lavoisier</h3>
+                <img src="img/education1.jpg" alt="Lycée Lavoisier">
+                <p>Lycée général Laurent de Lavoisier, 2023</p>
+            </div>
+            <div class="education">
+                <h3>BUT MMI</h3>
+                <img src="img/education2.jpg" alt="BUT MMI">
+                <p>IUT de Mulhouse</p>
+            </div>
+            <div class="education">
+                <h3>Formation en ligne</h3>
+                <img src="img/education3.jpg" alt="Formation en ligne">
+                <p> Licence +2 </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="mailto:votre-email@example.com" method="post" enctype="text/plain">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+    
+    <footer>
+        <p>© 2024 Agounter Khalid. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
